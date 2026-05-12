@@ -1,10 +1,24 @@
 const Hero = () => {
-    return (
-        <div className="text-center py-20 bg-green-600 text-white">  
-            <h1 className="text-3xl font-bold text-green-500s">Welcome to the Canadian Peace Project</h1>
-            <p>Promoting Peace and Understanding Across Canada</p>
-            <button className="hero-button">Learn More</button> 
-        </div>
-    )
-}   
-export default Hero 
+  return (
+    <div
+      className="relative w-full h-[500px] bg-cover bg-center flex items-center justify-center"
+      style={{ backgroundImage: "url('/hero.jpg')" }}
+    >
+      {/* Dark overlay */}
+      <div className="absolute inset-0 bg-black opacity-40"></div>
+
+      {/* Content */}
+      <div className="relative z-10 text-center text-white px-4">
+        <h1 className="text-4xl font-bold mb-3 text-gray-900">Educate. Empower. Build Peace</h1>
+        <p className="text-sm max-w-xl mx-auto mb-5 text-gray-700">
+          Our computer-assisted learning (CAL) programs, peacemaking initiatives, and development support work together to create resilient, just, and content shalom communities
+        </p>
+        <button className="bg-green-600 text-white px-6 py-2 rounded hover:bg-green-700 font-medium">
+          Learn More →
+        </button>
+      </div>
+    </div>
+  )
+}
+
+export default Hero
