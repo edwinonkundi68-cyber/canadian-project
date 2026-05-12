@@ -1,6 +1,6 @@
 const CtaSection = () => {
   return (
-    <div className="bg-green-600 py-14 px-10 text-center text-white">
+    <div className="bg-green-600 py-18 px-10 text-center text-white">
 
       <h2 className="text-2xl font-bold mb-3">
         Join Us in Making a Difference
