@@ -21,7 +21,7 @@ const EducationSection = () => {
         <div className="flex-1">
           <iframe
             className="w-full h-52 border border-gray-300 rounded"
-            src="https://www.youtube.com/embed/5jK75vSX5PE"
+            src="https://www.youtube.com/embed/yi9wrcWq6IY"
             title="CAL for Africa Vision"
             allowFullScreen
           ></iframe>
