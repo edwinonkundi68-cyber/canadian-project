@@ -1,7 +1,7 @@
 const EducationSection = () => {
   return (
-    <div className="bg-gray-100 py-12 px-10">
-      <div className="max-w-5xl mx-auto flex gap-10 items-center">
+    <div className="bg-gray-100 py-12 px-6">
+      <div className="max-w-5xl mx-auto flex flex-col md:flex-row gap-10 items-center">
 
         {/* Left - Text */}
         <div className="flex-1">

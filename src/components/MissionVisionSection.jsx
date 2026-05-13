@@ -1,7 +1,7 @@
 const MissionVisionSection = () => {
   return (
     <div className="bg-white py-10 px-10">
-      <div className="flex gap-6 max-w-5xl mx-auto">
+      <div className="flex flex-col md:flex-row gap-6 max-w-5xl mx-auto">
 
         {/* Mission Card */}
         <div className="flex-1 border border-gray-900 p-6 rounded">

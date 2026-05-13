@@ -26,7 +26,7 @@ const ImpactSection = () => {
   ]
 
   return (
-    <div className="bg-white py-12 px-10">
+    <div className="bg-white py-12 px-10 flex flex-col md:flex-row gap-6 max-w-5xl mx-auto">
       <div className="text-center mb-8">
         <h2 className="text-2xl font-bold">Our Impact Areas</h2>
         <p className="text-sm text-gray-500 mt-2">

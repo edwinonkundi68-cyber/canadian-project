@@ -58,7 +58,7 @@ const Footer = () => {
       <div className="text-center text-xs text-gray-400 mt-8 border-t pt-4">
         © 2026 Canadian Peacemakers International. All rights reserved.By Edwin Onkundi.
         <pre/>
-        <span className="ml-4 text-green-600 cursor-pointer">Privacy Policy</span>
+        <span className="ml-4 text-green-600 cursor-pointer">Privacy Policy</span>        |
         <span className="ml-4 text-green-600 cursor-pointer">Terms of Service</span>
       </div>
 
