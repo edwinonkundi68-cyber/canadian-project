@@ -56,7 +56,7 @@ const Footer = () => {
 
       {/* Bottom bar */}
       <div className="text-center text-xs text-gray-400 mt-8 border-t pt-4">
-        © 2025 Canadian Peacemakers International. All rights reserved.
+        © 2025 Canadian Peacemakers International. All rights reserved.<br />
         <span className="ml-2 text-green-600 cursor-pointer">Privacy Policy</span>
         <span className="ml-2">|</span>
         <span className="ml-2 text-green-600 cursor-pointer">Terms of Service</span>

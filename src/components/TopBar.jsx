@@ -1,4 +1,5 @@
-import { FaFacebookF, FaYoutube, FaLinkedinIn, FaInstagram } from "react-icons/fa"
+import Welcome from "./Welcome";
+import { FaFacebookF, FaYoutube, FaLinkedinIn , FaInstagram} from "react-icons/fa"
 
 const TopBar = () => {
   return (
@@ -13,6 +14,7 @@ const TopBar = () => {
 
         {/* Right - Social Icons */}
         <div className="flex gap-3 items-center">
+          <Welcome greeting="Hello" />
           <FaFacebookF className="cursor-pointer hover:opacity-75" size={14} />
           <FaYoutube className="cursor-pointer hover:opacity-75" size={14} />
           <FaLinkedinIn className="cursor-pointer hover:opacity-75" size={14} />
@@ -24,4 +26,4 @@ const TopBar = () => {
   )
 }
 
-export default TopBar
+export default TopBar;

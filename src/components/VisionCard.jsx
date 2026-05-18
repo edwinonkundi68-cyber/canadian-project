@@ -1,4 +1,4 @@
-const VissionCard = ({ title, description }) => {
+const VisionCard = ({ title, description }) => {
     return (
         <div className="vision-card">
             <h3>{title}</h3>
@@ -6,4 +6,4 @@ const VissionCard = ({ title, description }) => {
         </div>
     )
 }   
-export default VissionCard  
+export default VisionCard;
